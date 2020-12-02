@@ -7,7 +7,7 @@
 This project is a comparison of the global temperature over the years with the data of de capital of New Zealand, Wellington.
 
 **Key considerations:**
-Show clear data, the data has to be accurate as much as possible, has to be easy to read, has to show relevant information that can help to shape action plans.
+Show clear data, the data has to be accurate as much as possible, has to be easy to read and show relevant information that can help to shape action plans.
 
 **1-Extracting**
 
@@ -18,7 +18,7 @@ I downloaded all Udacity's database available by executing the followings comman
     SELECT * FROM city_list
     SELECT * FROM city_data
 
-In addition, in SQL workspace, I ran the following code to visualise all available data in my country and I saved as a new spreadsheet called “**city_data_where_nz":**
+In addition, in the SQL workspace, I ran the following code to visualise all available data in the New Zealand capital and I saved this into a new spreadsheet called “**city_data_where_nz":**
 
 
     SELECT * FROM city_data WHERE country='New Zealand'
@@ -31,9 +31,9 @@ The only city found in their database in New Zealand was Wellington.
 
 **2-Merging information**
 
-Then I opened the spreadsheet **global_data** and the created **city_data_where_nz** with Excel.
+Then I opened the spreadsheet **global_data** and then created **city_data_where_nz** with Excel.
 
-In the spreadsheet **global_data,** I created a new column called "Wellington, NZ" and I used the VLOOKUP in order to get all values from the another spreadsheet :
+In the spreadsheet **global_data,** I created a new column called "Wellington, NZ" and I used the VLOOKUP in order to get all values from the another spreadsheet:
 
     =IFERROR(VLOOKUP(A105,city_data_where_nz.csv!$A:$D,4,FALSE),"Not Available")
 ![Filtering only available data](https://paper-attachments.dropbox.com/s_52387B7D228925F713EEEF9A9749DED8659CE2C30C206BAB49C2A7F83DCE156E_1588378217791_image.png)
@@ -53,34 +53,34 @@ I used this way to find out what was the percentage difference between every yea
 ![Yearly increase rate local](https://paper-attachments.dropbox.com/s_52387B7D228925F713EEEF9A9749DED8659CE2C30C206BAB49C2A7F83DCE156E_1588492910339_image.png)
 
 
-And the following formulas to create that table:
+And the following formulas to create this table:
 
 ![Data summary, formulas taken.](https://paper-attachments.dropbox.com/s_52387B7D228925F713EEEF9A9749DED8659CE2C30C206BAB49C2A7F83DCE156E_1588504429260_image.png)
 
 
-The moving average used to smooth the data was was taken by 10 years time.
+The moving average used to smooth the data was taken by 10 years time.
 
 ![10 years - moving average](https://paper-attachments.dropbox.com/s_52387B7D228925F713EEEF9A9749DED8659CE2C30C206BAB49C2A7F83DCE156E_1588505249925_image.png)
 
 
 **4- Charts**
 
-![Wellington X Global comparison](https://paper-attachments.dropbox.com/s_52387B7D228925F713EEEF9A9749DED8659CE2C30C206BAB49C2A7F83DCE156E_1588504562997_image.png)
+![Wellington X Global comparison](https://uc3e808e50705674164e134d20a5.previews.dropboxusercontent.com/p/thumb/ABB976esbaCiF4w-yCxOZFmS7dYPsYGuXabFO8dPd8a_M3J5s4AxduWqRkK567xSal2uJLta9XIIh6oj0vEx7yI9OfbRNsBEcpDj5-cWeOL-kUBR58AC8nuCdrXe998RR4E_bGRpov29kqkoL1ej0pWP-YMcktGQZAMqB2WWUT7yeiV_nFwDATlJPYT9lmex9bLEO7dO9zzI7TWoF5JFxtqtFIG-o1QCOjs7NI4yNbjMUfAN2zhCxM0CNBRcwYL1P5is_S0cUkkaYpwTmzlaknY7twZUWesschvQGvPAjMRt0L8s7jCZRCov-MmHrWT4I3_xL70gciKrzZiH_KDYiVuTTP_nj4Z384U6llqcJe_ejTZRagmGS052o7VPqNqurc3tA2Cm9nX1jRGp3JsL_ZTI/p.png)
 
 
 
-![Global and local predictions.](https://paper-attachments.dropbox.com/s_52387B7D228925F713EEEF9A9749DED8659CE2C30C206BAB49C2A7F83DCE156E_1588505903950_image.png)
+![Global and local predictions.](https://uc8315ff5407db6c77d93933e782.previews.dropboxusercontent.com/p/thumb/ABDXRgzt3VAYtmOm1aqHmHiKTt7ippt6U65blqd8DeRLBx7Q2Vn5c8Lj4PUiDeVabDhTKrUIDEaTJrsZwVYeyqEElTeyMXF6zyGn7VwhYVUNJAXtuEyG6Cu53m4xdBanu1kuc2-bromrTOuEVoH6OE47nT67W6eh6ctBMEFrde8sBExrMrHk8KuDNEg53cH0vnaM3dGFTD2kktPJ6w4OwELWyAtZmH8DBzlPCkbuS2vj-OlcbS84KauVL42xxl53gB4_PyTbAaRg9d7ZQbNIV_ZXV716J1oFLv5KWW1fVZXSaYqXvmpp0jxykaGcEhTH7NwSBl0nTm8d5I8SNX9KMDmetXQL9ChTmUIVnNccVPdD2TBM8oa4sJxnLBgtEDbQzZr33Dr6IzlDu_uz0tKm9ew5/p.png)
 
 
 
-![Min, Max Temperatures and difference over the years.](https://paper-attachments.dropbox.com/s_52387B7D228925F713EEEF9A9749DED8659CE2C30C206BAB49C2A7F83DCE156E_1588504621274_image.png)
+![Min, Max Temperatures and difference over the years.](https://ucb124cd6043242454f92141d02f.previews.dropboxusercontent.com/p/thumb/ABACP6oUbG9VK5X8-KXqiw9cSKv7OFDEnxX5U0GL2M3d1Xsv_h-RRqtFS2mNcuv1maSxXRCwVDWlM4YkjtWGPbJFAf0ZrAzWJ6zcsvqFdkT9MSWy4tl0LTQ9x3dR5dP83AcGX2-yKvZHy9kDjRm_G8F87q8kX2202q2v9cvHORqFBGDzLu5RgkR9EX0Ed6HZzEs31kpMfWVD2jlHi3xNAz1CCubDK5u-P8qHpp5WXt74FDWDNBegOB8MCNCwg_t968w451M3kLOGgFUrvhgkZrjtAWi8QmF4afI12Wl0OAzqpFWYbeKjeUqvilBHLfv6oU83Ixa3Oi2tnANFP3vUj_rX2btzGj3iIJ1lS5Forv2-GaPD9wyvUGhDO-8JqGMfTKM/p.png)
 
 
 **5- Predictions**
 
-This is a rough predictions of what would be the next years globally and locally.
+This is a rough predictions of what would be the next years temperature globally and locally.
 
-To do that, I have got the mean temperature increase rate for both scenarios and I used that rate as a constant to find what would be the next year temperature.
+I have got the global and local average temperature and I used its rate as a constant to find what would be the next year temperature.
 
 
     Logic: (Previous year temperature X Mean temperature increase rate)+ Previous year temperature
@@ -93,15 +93,15 @@ To do that, I have got the mean temperature increase rate for both scenarios and
 **Final considerations:**
 
 
-- Both average temperatures have been increasing over time
+- Both average temperatures have been increasing over time.
 - Both have a higher average temperature now comparing with the past.
-- Over 130 years, the Wellington temperature increased 1.45 C° and the global temperature 4.05 C°
+- Over 130 years, the Wellington temperature has increased 1.45 C° and the global temperature 4.05 C°
 - The Wellington temperature has not been increasing as the global is.
-- The global increase rate is higher than Wellington, which means the world itself has a more climate impact than Wellington.
-- The global data has a lower standard error, which means fewer fluctuations, more reliability.
+- The global temperature increase rate is higher than in Wellington, which means the world itself has a more climate impact than Wellington.
+- The global data has a lower standard error, which means fewer fluctuations, more data reliability.
 - The global average temperature has been approaching the Wellington temperature over the years.
 - The global temperature would match with the Wellington around the year 2696.
-- The Wellington city in New Zealand apparently do most effective environmental protective actions than another countries.
+- The Wellington city in New Zealand apparently do more effective environmental protective actions than other countries.
 
 **References:**
 
