@@ -18,7 +18,7 @@ I downloaded all Udacity's database available by executing the followings comman
     SELECT * FROM city_list
     SELECT * FROM city_data
 
-In addition, in the SQL workspace, I ran the following code to visualise all available data in the New Zealand capital and I saved this into a new spreadsheet called “**city_data_where_nz":**
+In addition, in the SQL workspace, I ran the following code to visualise all available data in the New Zealand and I saved this into a new spreadsheet called “**city_data_where_nz":**
 
 
     SELECT * FROM city_data WHERE country='New Zealand'
@@ -65,15 +65,15 @@ The moving average used to smooth the data was taken by 10 years time.
 
 **4- Charts**
 
-![Wellington X Global comparison](https://uc3e808e50705674164e134d20a5.previews.dropboxusercontent.com/p/thumb/ABB976esbaCiF4w-yCxOZFmS7dYPsYGuXabFO8dPd8a_M3J5s4AxduWqRkK567xSal2uJLta9XIIh6oj0vEx7yI9OfbRNsBEcpDj5-cWeOL-kUBR58AC8nuCdrXe998RR4E_bGRpov29kqkoL1ej0pWP-YMcktGQZAMqB2WWUT7yeiV_nFwDATlJPYT9lmex9bLEO7dO9zzI7TWoF5JFxtqtFIG-o1QCOjs7NI4yNbjMUfAN2zhCxM0CNBRcwYL1P5is_S0cUkkaYpwTmzlaknY7twZUWesschvQGvPAjMRt0L8s7jCZRCov-MmHrWT4I3_xL70gciKrzZiH_KDYiVuTTP_nj4Z384U6llqcJe_ejTZRagmGS052o7VPqNqurc3tA2Cm9nX1jRGp3JsL_ZTI/p.png)
+![Wellington X Global comparison](https://uc3a6b0eae4168c1af8a7a0a5fe1.previews.dropboxusercontent.com/p/thumb/ABAixsFKpplU_CqryEV1nVCADo89PFsCs0EpaUd_fnMLoFbjjd-xm3FRnuRQ3Rm0X8Nj6UWj4rEQoNlIlSO6mWiPTqv0b47xeJ2hl9dd67REuUJV61miljGtlU4z0LjZ24hVSQGXkVN2wbpZ9WJyVb6tlE1QNt-fQ-lyBT0KIfQQH3rHiUH6k4fBci_ohG8el_UXchx_t6twFpkk91tZ_yQoqBD8nTGzxtOAkbytflCo7z78mwfho0sLtJQmQ3CO6tiDH4nrobGtQPDnD6c3Q7_qC6O3vxl_U7BCc0NP_N-99rC6o3F2BrHEOAjbYsdLJJK3lx1eISF2Q5NnPGn7GmXaHjBrZgY781IYQFJTWWF5pCBQhTHXk4B3DVlZwh4lRoE/p.png)
 
 
 
-![Global and local predictions.](https://uc8315ff5407db6c77d93933e782.previews.dropboxusercontent.com/p/thumb/ABDXRgzt3VAYtmOm1aqHmHiKTt7ippt6U65blqd8DeRLBx7Q2Vn5c8Lj4PUiDeVabDhTKrUIDEaTJrsZwVYeyqEElTeyMXF6zyGn7VwhYVUNJAXtuEyG6Cu53m4xdBanu1kuc2-bromrTOuEVoH6OE47nT67W6eh6ctBMEFrde8sBExrMrHk8KuDNEg53cH0vnaM3dGFTD2kktPJ6w4OwELWyAtZmH8DBzlPCkbuS2vj-OlcbS84KauVL42xxl53gB4_PyTbAaRg9d7ZQbNIV_ZXV716J1oFLv5KWW1fVZXSaYqXvmpp0jxykaGcEhTH7NwSBl0nTm8d5I8SNX9KMDmetXQL9ChTmUIVnNccVPdD2TBM8oa4sJxnLBgtEDbQzZr33Dr6IzlDu_uz0tKm9ew5/p.png)
+![Global and local predictions.](https://uc9627e518b6f2347f67708da9cb.previews.dropboxusercontent.com/p/thumb/ABBlBOa34r2slOhllb4jKLSjmYkual1SeMNIg26x9EzEPcqnAtkeHYkmOjbX8nLK2DZzanXlVmYDudpKZDIKzmP_kq-Bz7-m3Cbg-zobZOCP4RV3zTXMWkZqpoDa7ZGzWvF9PFenDVj1iHfxsT_pwNOHtTwn1FrVw3SZgwiJRceitZB_AK3B2kqxPZEL0S4s7ec0_zZLz2KRLh5u6l-ftjfvJGn0AHVT4log0NqZYKsIn9GFzqXWGdqAOhxcPWjOKM81xyygLKCvvuVyPcRyAQHAPUxYVnfmdZxOK-oVorklRsgp4qsqF7Q8tOXykW-l2235BzppZH5zvf016XW9lKEqHByNt7b2gSfFeuNXiNC1S_tJ37q2O0fv1lWIQl2X4Ig/p.png)
 
 
 
-![Min, Max Temperatures and difference over the years.](https://ucb124cd6043242454f92141d02f.previews.dropboxusercontent.com/p/thumb/ABACP6oUbG9VK5X8-KXqiw9cSKv7OFDEnxX5U0GL2M3d1Xsv_h-RRqtFS2mNcuv1maSxXRCwVDWlM4YkjtWGPbJFAf0ZrAzWJ6zcsvqFdkT9MSWy4tl0LTQ9x3dR5dP83AcGX2-yKvZHy9kDjRm_G8F87q8kX2202q2v9cvHORqFBGDzLu5RgkR9EX0Ed6HZzEs31kpMfWVD2jlHi3xNAz1CCubDK5u-P8qHpp5WXt74FDWDNBegOB8MCNCwg_t968w451M3kLOGgFUrvhgkZrjtAWi8QmF4afI12Wl0OAzqpFWYbeKjeUqvilBHLfv6oU83Ixa3Oi2tnANFP3vUj_rX2btzGj3iIJ1lS5Forv2-GaPD9wyvUGhDO-8JqGMfTKM/p.png)
+![Min, Max Temperatures and difference over the years.](https://ucee1410900a2d8d6b57a55abc4f.previews.dropboxusercontent.com/p/thumb/ABDJcOS4Dl2e2ZLpLzUR52iqr7jKFx1vv97dK1yAtiV0NPGCP7SSpJQlWnkhEub-jkWtUrWQSzZh2KkWxCulcJwN1YMFamshSuQXdpbw6AZ18QSq5RZ1BjzoTsXYaPUv-jV4eLr9ia6HYfUtMqk4_QJzUbwQI1GOaVhJcwV1vrtCFYLOhpLUzf-zRYVDSDTZLObNlLCM3TqnhecBXuUsSSt5H7HnYgTnrpTr5cHMT9ut1KubXjGiwjyiyyciMvuEwkDZmP0iMYaDC65CwiKpQerm7ZLObo8i1oPRYOxHTVTgJvJzVIv1VbPd8cSK8pWZGSNQ4gSyQxTGLZ1SKCLmKVb_VfWFs2TCizVS1gvQrzElxYu5T0NwanE29wjZJFVtA5c/p.png)
 
 
 **5- Predictions**
@@ -87,7 +87,7 @@ I have got the global and local average temperature and I used its rate as a con
     Formula:(B12*global_data!$K$115)+B12 
 
 
-![](https://paper-attachments.dropbox.com/s_52387B7D228925F713EEEF9A9749DED8659CE2C30C206BAB49C2A7F83DCE156E_1588505089305_image.png)
+![](https://uc984dcdca73627fa72e4c74756d.previews.dropboxusercontent.com/p/thumb/ABCcroPmEPb_16OLAuuSh1sjuAkEFzyrSUQaaCfdfvlSDoRXpoCLZ0u9mjpCXenL7PvD4_GYsmVlIM_qKMA6Q_Gguccup5U6VdjuONJ9hFZxFSZL_2JpT8Oi6Brqq8BPx70L0LKAFT4aoO98cpM9s6mW_J2D7TpForNModQeU_5UK0uAen9fpKV4jrCexV-A-1ZMM4HXVx2Zk99ZQX9U4rYThGbgF90DoqM_fqw4rWOVa9H7iXy1Wx30x1tXu23C0Q4WtRPR_qdjZ1B-oLzWCmRzHuatpaJDwLo8UAA4xjgdO5ID9GQoOpiSz8M5Sx-UUDKJcs829EmYnOUPY2SunPl9dElx5e3Vo4Ggs3UKRnnAn9-4USG_H4OUkFTn77VC1T4/p.png)
 
 
 **Final considerations:**
