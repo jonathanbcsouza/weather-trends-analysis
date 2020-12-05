@@ -37,7 +37,7 @@ I used this way to find out what was the percentage difference between every yea
 
 <div>
 <img src="images/yearly increase rate global.png" alt="increase rate global" width="420vw" >
-<img src="images/Yearly increase rate local.png" alt="increase rate local" width="380vw" >
+<img src="images/yearly increase rate local.png" alt="increase rate local" width="380vw" >
 
 </div>
 
