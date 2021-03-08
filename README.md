@@ -1,12 +1,12 @@
-# Project 1 - Explore weather trends
+# Weather trends
 
 <img align="right" width="120" height="120" src="images/global_warming_pic.png" alt="global warming">
 
 **Summary**
-This project is a comparison of the global temperature over the years with the data of de capital of New Zealand, Wellington.
+This project is a comparison between the global average temperature against the capital of New Zealand, Wellington.
 
 **Key considerations:**
-Show clear data, the data has to be accurate as much as possible, has to be easy to read and show relevant information that can help to shape action plans.
+Show clear data, be easy to read and show relevant information that can help to shape action plans.
 
 **1-Extracting**
 
@@ -33,7 +33,7 @@ Then I applied a filter in order to keep only the years where I could find data 
 
 **3- Calculations**
 
-I used this way to find out what was the percentage difference between every year.
+I used this way to find out what was the percentage difference over the years.
 
 <div>
 <img src="images/yearly increase rate global.png" alt="increase rate global" width="420vw" >
@@ -60,7 +60,7 @@ The moving average used to smooth the data was taken by 10 years time.
 
 **5- Predictions**
 
-This is a rough predictions of what would be the next years temperature globally and locally.
+This is a rough predictions of temperature in the next years globally and locally.
 
 I have got the global and local average temperature and I used its rate as a constant to find what would be the next year temperature.
 
@@ -73,13 +73,13 @@ I have got the global and local average temperature and I used its rate as a con
 
 - Both average temperatures have been increasing over time.
 - Both have a higher average temperature now comparing with the past.
-- Over 130 years, the Wellington temperature has increased 1.45 C° and the global temperature 4.05C°.
+- Over 130 years, the Wellington temperature increased 1.45 C° and the global temperature 4.05C°.
 - The Wellington temperature has not been increasing as the global is.
 - The global temperature increase rate is higher than in Wellington, which means the world itself has a more climate impact than Wellington.
 - The global data has a lower standard error, which means fewer fluctuations, more data reliability.
 - The global average temperature has been approaching the Wellington temperature over the years.
 - The global temperature would match with the Wellington around the year 2696.
-- The Wellington city in New Zealand apparently do more effective environmental protective actions than other countries.
+- The Wellington city in New Zealand apparently do more effective environmental protective actions than other countries. Further investigaiton required.
 
 **References:**
 
